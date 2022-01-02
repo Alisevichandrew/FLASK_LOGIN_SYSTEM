@@ -18,7 +18,7 @@ def form_show():
     if request.method == 'GET': 
         return """
         <form action='http://127.0.0.1:5000/form' method='POST'>
-        <p>Name: <input type='text' name=Name /></p>
+        <p>Name: <input type='text' name=Name /></p>    
         <p>Math: <input type='number' name=Math /></p>
         <p>CS: <input type='password' name=CS /></p>
         <p><input type='submit'></p>
